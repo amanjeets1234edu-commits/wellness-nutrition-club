@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Gurmeet Wellness Club</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body{
+font-family: Arial;
+margin:0;
+background:#f5f5f5;
+}
+
+header{
+background:#2ecc71;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+nav{
+background:#333;
+padding:10px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:10px;
+text-decoration:none;
+font-size:18px;
+}
+
+section{
+padding:40px;
+text-align:center;
+}
+
+.card{
+background:white;
+padding:20px;
+margin:20px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+button{
+background:#2ecc71;
+color:white;
+padding:12px 20px;
+border:none;
+border-radius:5px;
+font-size:16px;
+}
+
+footer{
+background:#333;
+color:white;
+text-align:center;
+padding:15px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Gurmeet Wellness Club</h1>
+<p>21 Day & 30 Day Weight Loss Program</p>
+</header>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">About</a>
+<a href="#">Program</a>
+<a href="#">Contact</a>
+</nav>
+
+<section>
+<div class="card">
+<h2>About Us</h2>
+<p>Our mission is to help people become healthy and fit.
+We run 21-day and 30-day weight loss programs.</p>
+</div>
+
+<div class="card">
+<h2>Our Programs</h2>
+<p>✔ 21 Day Weight Loss Challenge</p>
+<p>✔ 30 Day Fat Loss Program</p>
+<p>✔ Daily Nutrition Guidance</p>
+<p>✔ Online Wellness Support</p>
+</div>
+
+<div class="card">
+<h2>Join Now</h2>
+<p>Join our wellness club today</p>
+<button onclick="window.location.href='https://wa.me/919999999999'">
+Join on WhatsApp
+</button>
+</div>
+</section>
+
+<footer>
+<p>© 2026 Gurmeet Wellness Club</p>
+</footer>
+
+</body>
+</html>
